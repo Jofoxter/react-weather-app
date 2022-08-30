@@ -3,7 +3,27 @@ import React from "react";
 import './App.css';
 
 export default function App() {
-  return <div className="App"> Weather App</div>;
+  return (
+    <div className="App">
+      {" "}
+      Weather App
+      <footer>
+        This project was coded by{" "}
+        <a
+          href="https://polite-cassata-f5e2ec.netlify.app/
+        "
+          target="_blank"
+        >
+          Giorgia Francesca Costantino{" "}
+        </a>
+        and is {""}
+        <a href="https://github.com/Jofoxter/react-weather-app" target="_blank">
+          {" "}
+          open-sourced on GitHub
+        </a>
+      </footer>
+    </div>
+  );
 
 }
 
