@@ -12,7 +12,7 @@ return (
       <li>
         <FormattedDate date={props.data.date} />
       </li>
-      <li className="text-capitalize">{props.data.escription}</li>
+      <li className="text-capitalize">{props.data.description}</li>
     </ul>
     <div className="row mt-3">
       <div className="col-6">

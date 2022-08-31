@@ -1,3 +1,19 @@
+body{
+font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+h1 {
+     color: rgb(64, 64, 70);
+     font-size: 30px;
+   }
+h2 {
+color:rgb(64, 64, 70);
+ font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
 .App {
       max-width: 600px;
       margin:  30px auto;
@@ -7,3 +23,4 @@
   font-size: 11px;
   margin: 10px 0;
 }
+
