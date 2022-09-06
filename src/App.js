@@ -35,7 +35,7 @@ export default function App() {
           <div>Today make the day a great day, for you and others!</div>
         </h2>
         <br />
-        <Weather defaultCity="Lugano" />
+        <Weather defaultCity="Milan" />
         <br />
         <div className="row">
           <div className="col-md-12">
